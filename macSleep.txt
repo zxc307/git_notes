@@ -1,0 +1,4 @@
+禁止盒盖sleep
+sudo pmset -a disablesleep 1
+恢复盒盖sleep
+sudo pmset -a disablesleep 0
