@@ -1,0 +1,5 @@
+pop=whole
+for chr in {1..4..1}
+do
+plink --vcf ./$pop/$pop.chr$chr.filtered.recode.vcf --threads 24 --recode --out ./$pop/$pop.chr$chr
+done

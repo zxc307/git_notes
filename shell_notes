@@ -1,0 +1,16 @@
+Linux中查看各文件夹大小命令
+du -h --max-depth=1
+查看组内存储占用情况
+quotarstor FRS
+大ram nodes
+srun -n 24 -C dodeca96gb -A frs2 --mem=92gb --time=300:00:00 --pty /bin/bash
+
+srun -p smp -n 32 --mem=500gb -A frs2 --time=300:00:00 --pty /bin/bash
+
+
+
+
+
+
+
+
