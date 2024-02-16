@@ -1,0 +1,13 @@
+#pip install dj_database_url
+#pip install django_distill
+#pip install whitenoise
+git remote add upstream git@github.com:chrchang/coggenomics-django.git
+git remote -v
+git fetch upstream
+git checkout master
+git merge upstream/master
+git status
+
+python manage.py distill-local --collectstatic rendered
+python manage.py runserver
+
